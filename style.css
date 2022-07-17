@@ -1,0 +1,142 @@
+:root {
+    --black: #4D4C59;
+    --purple: #6C63FF;
+      --light-grey: #C8C8C8;
+    --text-color: #9C9AB6;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+header img{
+  width: 100%;
+}
+
+main section{
+  position: absolute;
+  width: 494px;
+  height: 172px;
+  left: 123px;
+  top: 187px;
+}
+
+main section h1{
+  position: absolute;
+  width: 486px;
+  height: 54px;
+  left: 150px;
+  top: 100px;
+
+  
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+  letter-spacing: 0.105em;
+  text-transform: uppercase;
+  color: #6C63FF;
+}
+
+.hour{
+  position: absolute;
+  width: 486px;
+  height: 54px;
+  left: 120px;
+  top: 150px;
+  margin-top: 20px ;
+}
+
+
+.title-date {
+  display: flex;
+  justify-content: center;
+  /* border: saddlebrown 1px solid; */
+  gap: 65px;
+  position: absolute;
+  left: 50px;
+  
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 21px;
+  text-transform: capitalize;
+  color: #C8C8C8;
+
+}
+.count {
+  display: flex;
+  justify-content: center;
+  /* border: saddlebrown 1px solid; */
+  gap: 10px;
+  margin-top: 10px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 108px;
+  color: #4D4C59;
+ 
+}
+
+
+
+
+
+main p {
+  position: absolute;
+  width: 349px;
+  height: 21px;
+  left: 310px;
+  top: 405px;
+  margin-top: 70px;
+  
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #9C9AB6;
+  
+  
+
+}
+
+main button{
+  
+  position: absolute;
+  width: 160px;
+  height: 46px;
+  left: 400px;
+  top: 500px;
+  margin-top: 20px;
+
+  background-color:#6C63FF ;
+  color: #FFFFFF;
+  border-radius: 10px;
+  
+  
+
+}
+
+main article{
+  position: absolute;
+  left: 51.73%;
+  right: 41.66%;
+  top: 25.56%;
+  bottom: 30.77%;
+}
+
+
+footer img{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
