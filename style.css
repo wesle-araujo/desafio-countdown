@@ -49,6 +49,7 @@ main section h1{
   left: 120px;
   top: 150px;
   margin-top: 20px ;
+  /* border: 1px solid rebeccapurple; */
 }
 
 
@@ -56,9 +57,11 @@ main section h1{
   display: flex;
   justify-content: center;
   /* border: saddlebrown 1px solid; */
-  gap: 65px;
+  gap: 68px;
   position: absolute;
-  left: 50px;
+  left: 60px;
+  margin-right: 10px;
+ 
   
 
   font-family: 'Poppins';
